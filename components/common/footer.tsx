@@ -35,9 +35,9 @@ const Footer = () => {
            Projects
           </h2>
           <ul className="">
-            <li className="hover:underline hover:cursor-pointer"><Link href="/#current">Current</Link></li>
-            <li className="hover:underline hover:cursor-pointer"><Link href="/#2023">2023</Link></li>
-            <li className="hover:underline hover:cursor-pointer"><Link href="/#2022">2022</Link></li>
+            <li className="hover:underline hover:cursor-pointer"><Link href="/2024">2024</Link></li>
+            <li className="hover:underline hover:cursor-pointer"><Link href="/2023">2023</Link></li>
+            <li className="hover:underline hover:cursor-pointer"><Link href="/2022">2022</Link></li>
             
           </ul>
         </div>
@@ -69,7 +69,7 @@ const Footer = () => {
       {/* <hr /> */}
       <div ref={titleRef} className="flex items-center flex-row py-10 px-5">
         <div>
-          <p>&#169;McGill IGEM 2024</p>
+          <p>&#169;McGill IGEM 2025</p>
         </div>
         <p className="ml-auto pr-2">Follow Us:</p>
         <div className="hover:scale-125 loadLeft">
