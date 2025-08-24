@@ -12,7 +12,6 @@ const Person = (props: PersonProps) => {
     <div className="group relative">
       <div className="h-full w-full">
         <Image
-          layout="responsive"
           src={props.img}
           alt={props.alt} // Add alt attribute
           width={258}
