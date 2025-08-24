@@ -17,7 +17,7 @@ interface TeamMembersByYear {
 }
 
 const About: NextPage = () => {
-  const [selectedYear, setSelectedYear] = useState<number>(2023);
+  const [selectedYear, setSelectedYear] = useState<number>(2024);
 
   const handleYearChange = (year: number) => {
       setSelectedYear(year);
@@ -102,8 +102,54 @@ const About: NextPage = () => {
         { name: "Eduardo Cepeda-Cañedo"},
         { name: "Joan Miguel Romero"}
       ]*/
-    }
-    // ... other years and sections
+    },
+
+    2024: {
+      leadership: [
+        { name: "Isabelle Guo", role: "Executive Director" },
+        { name: "Laura Hebert", role: "Wet Lab Lead"},
+        { name: "Lesley Zhan", role: "Wet Lab Lead"},
+        { name: "Nicholas Da Costa-Bastidas", role: "Operations Lead"},
+        { name: "Ali Najjar", role: "Dry Lab Lead"},
+        { name: "Mia Bhatia", role: "Human Practices Lead"},
+        { name: "Sabrina Du", role: "Entrepreneurship Lead"},
+        { name: "Kohan Ketch", role: "Finance Lead"},
+        { name: "Sofian Martinais", role: "Outreach Lead"},
+        { name: "Chloe Wei", role: "Media Lead"},
+      ],
+
+      wetLab: [
+        { name: "Lucas Elliott"},
+        { name: "Laurianne Daoust"},
+        { name: "Jung Hao Cau"},
+        { name: "Sophia Chen"},
+        { name: "Yaman Al Janaideh"},
+        { name: "Tomos Salathiel"},
+        { name: "Alexa Truong"},
+        { name: "Yuman Jiang"},
+        { name: "Alex Jung"},
+        { name: "Ahoor Saleem"},
+        { name: "Farha Fazal"},
+        { name: "Gil Qin"},
+        { name: "Siqi Mi"}
+      ],
+
+      dryLab: [
+        { name: "Angela Zhu"},
+        { name: "Bokuan Li"},
+        { name: "Hao Kang"},
+        { name: "Michel Hijazin"},
+        { name: "Seyla Wickramasinghe"},
+        { name: "Serena Elzein"},
+      ],
+      webDev: [
+        { name: "Kevin Liu"},
+        { name: "Ariel-Wilkins Saintil"},
+        { name: "No Image"}
+      ]
+    },
+
+
   };
   
   const sections = Object.keys(teamMembersByYear[selectedYear]);
