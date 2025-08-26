@@ -3,7 +3,7 @@ import Image from "next/image";
 import Person from "../components/about/person";
 import type { NextPage } from "next";
 import { useState } from "react";
-import Layout from "../components/common/layout";
+
 
 interface TeamMember {
   name: string;
@@ -106,12 +106,12 @@ const About: NextPage = () => {
 
     2024: {
       leadership: [
-        { name: "Isabelle Guo", role: "Executive Director" },
-        { name: "Laura Hebert", role: "Wet Lab Lead"},
-        { name: "Lesley Zhan", role: "Wet Lab Lead"},
+        { name: "Isabelle Guo", role: "Team Co-Lead" },
+        { name: "Laura Hebert", role: "Team Co-Lead, Wet Lab Co-Lead"},
+        { name: "Lesley Zhan", role: "Wet Lab Co-Lead"},
         { name: "Nicholas Da Costa-Bastidas", role: "Operations Lead"},
         { name: "Ali Najjar", role: "Dry Lab Lead"},
-        { name: "Mia Bhatia", role: "Human Practices Lead"},
+        { name: "Mia Bhatia", role: "Human Practices Lead, Education Lead"},
         { name: "Sabrina Du", role: "Entrepreneurship Lead"},
         { name: "Kohan Ketch", role: "Finance Lead"},
         { name: "Sofian Martinais", role: "Outreach Lead"},
@@ -145,7 +145,6 @@ const About: NextPage = () => {
       webDev: [
         { name: "Kevin Liu"},
         { name: "Ariel-Wilkins Saintil"},
-        { name: "No Image"}
       ]
     },
 
