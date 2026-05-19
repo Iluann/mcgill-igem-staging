@@ -148,9 +148,48 @@ const About: NextPage = () => {
       ]
     },
 
+    2025: {
+      leadership: [
+        {name: "Lucas Elliot", role: "Team Co-Lead"},
+        {name: "Nicholas Da Costa Bastidas", role: "Team Co-Lead, Wet Lab Lead"},
+        {name: "Chloe Wei", role: "Wet Lab Lead"},
+        {name: "Annie Dang", role: "Dry Lab Lead"},
+        {name: "Naomi Blackadar", role: "Human Practices Lead"},
+        {name: "Salena Sun", role: "Media Lead"},
+        {name: "Laura Sun", role: "Outreach Lead"},
+        {name: "Mollee Ye", role: "Finance Co-Lead"},
+        {name: "Ruihang Shen", role: "Finance Co-Lead"},
+        {name: "Johanna Turton", role: "Inclusivity Lead"},
+        {name: "Mercy Ajibola", role: "Education Lead"},
+        {name: "Evelyn Yu", role: "Entrepreneurship Lead"},
+      ],
 
-  };
+      wetLab: [
+        {name : "Lucy Wiggers"},
+        {name : "Camille Heaney"},
+        {name : "Adrian Yehia"},
+        {name : "Rhianna Jiang"},
+        {name : "Jeremy Lachance"},
+        {name : "Victoria Ma"},
+        {name : "Kai Lian"},
+      ],
+
+      drylab: [
+
+        {name : "Alexandra Mclean"},
+        {name : " Dante Garcia"},
+        {name : " Elizabeth Kourbatski"},
+        {name : " Rayane Bennani"},
+
+      ],
+
+      webDev: [
+        {name : "Malak Oualid"},
+        {name : "Kevin Liu"},
+      ] 
+  }
   
+};
   const sections = Object.keys(teamMembersByYear[selectedYear]);
 
   return (
