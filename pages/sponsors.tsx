@@ -24,187 +24,192 @@ const Standard: NextPage = () => {
         </div>
 
         <div className="w-1/2 font-signika font-regular text-5xl pb-12">
-          Thank you to all of our sponsors, helping us usher in the next
-          revolution—the
-          <span className="text-mcgill-red"> biorevolution</span>.
+          <span className="text-mcgill-red">Thank you </span>
+          to all of our sponsors for supporting our mission!
         </div>
       </div>
 
       <div className="flex w-full flex-col items-center justify-center py-10">
-        <div className="h-full w-1/2 py-5">
+        <div className="h-full w-[80%] py-5">
           <a href="https://www.mcgill.ca/" className="">
             <Image
-              alt="image of mcgill logo"
+              alt="image of mcgill logos"
               width={819}
               height={193}
               layout="responsive"
-              src="/sponsors/mcgill.png"
+              src="/sponsors/McGill logos.png"
             />
           </a>
         </div>
-        <div className="h-full w-[70%] py-5 flex flex-row justify-center items-center">
+        <div className="h-full w-[50%] py-5 flex flex-row justify-center items-center">
           {/* <div className="border-4 border-mcgill-red h-20 w-20 mx-5"></div>
             <div className="border-4 border-mcgill-red h-20 w-20"></div> */}
           <div className="h-full w-full mx-5">
             <a href="https://ssmu.ca/" className="">
               <Image
                 alt="SSMU logo"
-                width={306}
-                height={200}
+                width={10}
+                height={20}
                 layout="responsive"
-                src="/sponsors/SSMU.png"
+                src="/sponsors/SSMU logo.png"
               />
             </a>
           </div>
-          <div className="h-full w-full mx-5">
-            <a href="https://www.pfizer.ca/" className="">
+          <div className="h-full w-[200%] mx-5">
+            <a href="https://https://susmcgill.ca/" className="">
               <Image
-                alt="pfizer logo"
+                alt="science undergraduate society logo"
                 width={603}
                 height={316}
                 layout="responsive"
-                src="/sponsors/Pfizer.png"
+                src="/sponsors/SUS logo.webp"
+              />
+            </a>
+          </div>
+          <div className="h-full w-[100%] mx-5">
+            <a href="https://https://eusmcgill.ca/" className="">
+              <Image
+                alt="engineering undergraduate society logo"
+                width={603}
+                height={316}
+                layout="responsive"
+                src="/sponsors/EUS logo.png"
               />
             </a>
           </div>
         </div>
+        <div className="h-full w-[70%] py-5 flex flex-row justify-center items-center">
+          <div className="h-full w-1/2 py-5">
+            <a href="https://https://genomecanada.ca" className="">
+              <Image
+                alt="genome canada logo"
+                width={819}
+                height={193}
+                layout="responsive"
+                src="/sponsors/genome canada logo.png"
+              />
+            </a>
+          </div>
 
-        <div className="h-full w-1/2 py-5">
-          <a href="https://gairdner.org/" className="">
-            <Image
-              alt=""
-              width={819}
-              height={193}
-              layout="responsive"
-              src="/sponsors/Gairdner.png"
-            />
-          </a>
-        </div>
+          <div className="h-full w-1/2 py-5">
+            <a href="https://www.crbsmcgill.ca/" className="">
+              <Image
+                alt="Centre de recherche en biologie structurelle logo"
+                width={819}
+                height={193}
+                layout="responsive"
+                src="/sponsors/CRBS logo.png"
+              />
+            </a>
+          </div>
 
-        <div className="h-full w-[85%] py-5 flex flex-row justify-center items-center">
-          {/* <div className="border-4 border-mcgill-red h-20 w-20 mx-5"></div>
-            <div className="border-4 border-mcgill-red h-20 w-20"></div> */}
           <div className="h-full w-full mx-5">
-            <a href="https://www.snapgene.com/" className="">
+            <a href="https://smblairfoundation.com/" className="">
               <Image
-                alt=""
-                width={400}
-                height={100}
-                layout="responsive"
-                src="/sponsors/SnapGene.png"
-              />
-            </a>
-          </div>
-          <div className="h-full w-full mx-5">
-            <a href="https://www.minipcr.com/" className="">
-              <Image
-                alt=""
-                width={514}
-                height={229}
-                layout="responsive"
-                src="/sponsors/MiniPCR.png"
-              />
-            </a>
-          </div>
-          <div className="h-full w-full mx-5">
-            <a href="https://www.neb.ca/" className="">
-              <Image
-                alt=""
-                width={461}
-                height={179}
-                layout="responsive"
-                src="/sponsors/New England Biolabs.png"
-              />
-            </a>
-          </div>
-        </div>
-
-        <div className="w-[80%] py-5 flex flex-row justify-center items-center">
-          {/* <div className="border-4 border-mcgill-red h-20 w-20 mx-5"></div>
-            <div className="border-4 border-mcgill-red h-20 w-20"></div> */}
-          <div className="h-full w-full mx-5">
-            <a href="https://www.benchling.com/" className="">
-              <Image
-                alt=""
-                width={495}
-                height={105}
-                layout="responsive"
-                src="/sponsors/Benchling.png"
-              />
-            </a>
-          </div>
-          <div className="h-full w-full mx-5">
-            <a href="https://www.twistbioscience.com/" className="">
-              <Image
-                alt=""
+                alt="SM blair foundation logo"
                 width={586}
                 height={199}
                 layout="responsive"
-                src="/sponsors/Twist Biosciences.png"
+                src="/sponsors/SM blair logo.png"
+              />
+            </a>
+          </div>
+          
+        </div>
+
+        <div className="h-full w-[75%] py-5 flex flex-row justify-center items-center">
+          {/* <div className="border-4 border-mcgill-red h-20 w-20 mx-5"></div>
+            <div className="border-4 border-mcgill-red h-20 w-20"></div> */}
+          <div className="h-full w-full mx-5">
+            <a href="https://www.idtdna.com/" className="">
+              <Image
+                alt="integrated DNA technologies logo"
+                width={400}
+                height={100}
+                layout="responsive"
+                src="/sponsors/IDT logo.png"
               />
             </a>
           </div>
           <div className="h-full w-full mx-5">
-            <a href="https://zbiotics.com/" className="">
+            <a href="https://www.cultivarium.org/" className="">
               <Image
-                alt=""
+                alt="cultivarium logo"
+                width={514}
+                height={229}
+                layout="responsive"
+                src="/sponsors/Cultivarium-Logo.jpg"
+              />
+            </a>
+          </div>
+          <div className="h-full w-full mx-5">
+            <a href="https://district3.co/" className="">
+              <Image
+                alt="district 3 logo"
+                width={461}
+                height={179}
+                layout="responsive"
+                src="/sponsors/D3 logo.jpeg"
+              />
+            </a>
+          </div>
+        </div>
+
+        <div className="w-[75%] py-5 flex flex-row justify-center items-center">
+          {/* <div className="border-4 border-mcgill-red h-20 w-20 mx-5"></div>
+            <div className="border-4 border-mcgill-red h-20 w-20"></div> */}
+          <div className="h-full w-full mx-5">
+            <a href="https://www.twistbioscience.com/" className="">
+              <Image
+                alt="twist bioscience logo"
+                width={495}
+                height={105}
+                layout="responsive"
+                src="/sponsors/Twist_Bioscience_Official_Logo.png"
+              />
+            </a>
+          </div>
+ 
+          <div className="h-full w-full mx-5">
+            <a href="https://molecularforecaster.com/" className="">
+              <Image
+                alt="molecular forecaster logo"
                 width={1200}
                 height={158}
                 layout="responsive"
-                src="/sponsors/zbiotics.png"
+                src="/sponsors/molecular forecaster logo.png"
               />
             </a>
           </div>
         </div>
 
 
-        <div className="h-full w-[90%] py-5 flex flex-row justify-center items-center">
+        <div className="h-full w-[75%] py-5 flex flex-row justify-center items-center">
           {/* <div className="border-4 border-mcgill-red h-20 w-20 mx-5"></div>
             <div className="border-4 border-mcgill-red h-20 w-20"></div> */}
           <div className="h-full w-full mx-5">
-            <a href="https://latch.bio/" className="">
+            <a href="https://www.boxone.xyz" className="">
               <Image
-                alt=""
+                alt="boxone logo"
                 width={385}
                 height={122}
                 layout="responsive"
-                src="/sponsors/latch.png"
+                src="/sponsors/BoxOne Logo.avif"
               />
             </a>
           </div>
           <div className="h-full w-full mx-5">
-            <a href="https://www.idtdna.com/pages" className="">
+            <a href="https://frontrow.ventures" className="">
               <Image
-                alt=""
+                alt="frontrow ventures logo"
                 width={355}
                 height={124}
                 layout="responsive"
-                src="/sponsors/IDT.png"
+                src="/sponsors/FRV logo.webp"
               />
             </a>
           </div>
-          <div className="h-full w-full mx-5">
-            <a href="https://mrm.research.mcgill.ca/" className="">
-              <Image
-                alt=""
-                width={466}
-                height={164}
-                layout="responsive"
-                src="/sponsors/MRM.png"
-              />
-            </a>
-          </div>
-          <div className="h-full w-full mx-5">
-            <a href="https://www.mybeckman.ca/" className="">
-              <Image
-                alt=""
-                width={314}
-                height={150}
-                layout="responsive"
-                src="/sponsors/Beckman Coulter.png"
-              />
-            </a>
-          </div>
+          
         </div>
 
       </div>
