@@ -55,17 +55,6 @@ const Standard: NextPage = () => {
               />
             </a>
           </div>
-          <div className="h-full w-[200%] mx-5">
-            <a href="https://https://susmcgill.ca/" className="">
-              <Image
-                alt="science undergraduate society logo"
-                width={603}
-                height={316}
-                layout="responsive"
-                src="/sponsors/SUS logo.webp"
-              />
-            </a>
-          </div>
           <div className="h-full w-[100%] mx-5">
             <a href="https://https://eusmcgill.ca/" className="">
               <Image
@@ -74,6 +63,17 @@ const Standard: NextPage = () => {
                 height={316}
                 layout="responsive"
                 src="/sponsors/EUS logo.png"
+              />
+            </a>
+          </div>
+          <div className="h-full w-[200%] mx-5">
+            <a href="https://https://susmcgill.ca/" className="">
+              <Image
+                alt="science undergraduate society logo"
+                width={603}
+                height={316}
+                layout="responsive"
+                src="/sponsors/SUS logo.webp"
               />
             </a>
           </div>

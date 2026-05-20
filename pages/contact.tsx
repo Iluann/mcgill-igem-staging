@@ -20,7 +20,7 @@ const Contact: NextPage = () => {
             </span>
             / MORE / CONTACT US
           </div>
-          <div className="font-mono font-bold tracking-tight text-l">Contact email: <a href="mailto:igem@mcgill.ca">igem@mcgill.ca</a></div>
+          <div className="font-mono font-bold tracking-tight text-l">Contact email: <a href="mailto:igem@mcgill.ca">igem@mcgilleus.ca</a></div>
           
         </div>
 

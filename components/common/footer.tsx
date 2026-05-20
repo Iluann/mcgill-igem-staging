@@ -24,8 +24,7 @@ const Footer = () => {
           <ul className="">
             <li className="hover:underline hover:cursor-pointer"><a href="https://open.spotify.com/show/566xfBOfyIhNnNVNsjVHjz?si=8c4f83dca49343cb&nd=1">STEMcast</a></li>
             <li className="hover:underline hover:cursor-pointer"><Link href="https://igemontheverge.wixsite.com/home">Conference: OnTheVerge 2024</Link></li>
-            <li className="hover:underline hover:cursor-pointer"><Link href="https://www.youtube.com/channel/UCwqaOp6Mkj4Ekhd9QRchd6w">Synbio Collective</Link></li>
-            <li className="hover:underline hover:cursor-pointer"><Link href="/synbiosis_call_for_artists">Synbiosis: Call For Artists</Link></li>
+            <li className="hover:underline hover:cursor-pointer"><Link href="https://www.instagram.com/synbiocollective/">Synbio Collective</Link></li>
             <li className="hover:underline hover:cursor-pointer"><Link href="https://igemsynbiosis.wixsite.com/home">Synbiosis: The Exhibition</Link></li>
             <li className="hover:underline hover:cursor-pointer"><Link href="https://mcgilligem.substack.com/">Blog</Link></li>
           </ul>
@@ -35,6 +34,7 @@ const Footer = () => {
            Projects
           </h2>
           <ul className="">
+            <li className="hover:underline hover:cursor-pointer"><Link href="/2025">2025</Link></li>
             <li className="hover:underline hover:cursor-pointer"><Link href="/2024">2024</Link></li>
             <li className="hover:underline hover:cursor-pointer"><Link href="/2023">2023</Link></li>
             <li className="hover:underline hover:cursor-pointer"><Link href="/2022">2022</Link></li>
@@ -69,7 +69,7 @@ const Footer = () => {
       {/* <hr /> */}
       <div ref={titleRef} className="flex items-center flex-row py-10 px-5">
         <div>
-          <p>&#169;McGill IGEM 2025</p>
+          <p>&#169;McGill IGEM 2020-26</p>
         </div>
         <p className="ml-auto pr-2">Follow Us:</p>
         <div className="hover:scale-125 loadLeft">
