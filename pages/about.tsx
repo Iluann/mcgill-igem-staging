@@ -17,7 +17,7 @@ interface TeamMembersByYear {
 }
 
 const About: NextPage = () => {
-  const [selectedYear, setSelectedYear] = useState<number>(2024);
+  const [selectedYear, setSelectedYear] = useState<number>(2025);
 
   const handleYearChange = (year: number) => {
       setSelectedYear(year);
@@ -239,7 +239,7 @@ const About: NextPage = () => {
               </div>
               <div className="grid grid-cols-5 gap-2">
                 {teamMembersByYear[selectedYear][section].map((teamMember) => (
-                  <Person alt={teamMember.name} key={teamMember.name} name={teamMember.name} img={`/team/${selectedYear}/${teamMember.name}.jpeg`} role={teamMember.role} />
+                  <Person alt={teamMember.name} key={teamMember.name} name={teamMember.name} img={`/team/${selectedYear}/${selectedYear === 2025 ? `${teamMember.name.split(' ')[0].toLowerCase()}-headshot.webp` : `${teamMember.name}.jpeg`}`} role={teamMember.role} />//Note: this hardcodes other names for 2025 headshots as they're named differently than the rest of the years
                 ))}
               </div>
             </div>
