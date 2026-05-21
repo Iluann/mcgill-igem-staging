@@ -23,6 +23,8 @@ const Footer = () => {
           </h2>
           <ul className="">
             <li className="hover:underline hover:cursor-pointer"><Link href="/queercase2025">Queer Case 2025</Link></li>
+            <li className="hover:underline hover:cursor-pointer"><Link href="/minigem2025">MiniGEM 2025</Link></li>
+            <li className="hover:underline hover:cursor-pointer"><Link href="/microbialpainting">Microbial Painting</Link></li>
             <li className="hover:underline hover:cursor-pointer"><a href="https://open.spotify.com/show/566xfBOfyIhNnNVNsjVHjz?si=8c4f83dca49343cb&nd=1">STEMcast</a></li>
             <li className="hover:underline hover:cursor-pointer"><Link href="https://igemontheverge.wixsite.com/home">Conference: OnTheVerge 2024</Link></li>
             <li className="hover:underline hover:cursor-pointer"><Link href="https://www.instagram.com/synbiocollective/">Synbio Collective</Link></li>
