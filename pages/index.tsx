@@ -35,7 +35,6 @@ const Home: NextPage = () => {
             <div className="absolute -top-8 z-50 bg-black w-full h-8"/>
             <div className="absolute -top-8 left-0 z-10 h-[10rem] w-full gradienttop" />
             <img className="w-full" src="img/cells.jpg" /> 
-            relative
             <div className="uppercase leading-none text-[5.8vw] absolute top-[55%] left-[55%] font-semibold font-mono">
             <p>We are</p> <span className="inline-block"><Typewriter
                 

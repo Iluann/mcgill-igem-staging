@@ -83,6 +83,7 @@ const Navbar = (props: NavbarProps) => {
                 <div>
                   <h1 className="uppercase lg:text-5xl text-xl lg:py-2 py-1">Initiatives</h1>
                   <ul className="lg:text-xl text-base px-4">
+                    <li className="hover:underline hover:cursor-pointer"><Link href="/queercase2025" onClick={() => setNavOpen(false)}>Queer Case 2025 </Link></li>
                     <li className="hover:underline hover:cursor-pointer"><a href="https://open.spotify.com/show/566xfBOfyIhNnNVNsjVHjz?si=8c4f83dca49343cb&nd=1">STEMcast</a></li>
                     <li className="hover:underline hover:cursor-pointer"><Link href="https://igemontheverge.wixsite.com/home">Conference: OnTheVerge 2025</Link></li>
                     <li className="hover:underline hover:cursor-pointer"><a href="https://www.instagram.com/synbiocollective/">Synbio Collective</a></li>
