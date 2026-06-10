@@ -20,12 +20,12 @@ const Contact: NextPage = () => {
             </span>
             / MORE / CONTACT US
           </div>
-          <div className="font-mono font-bold tracking-tight text-l">Contact email: <a href="mailto:igem@mcgill.ca">igem@mcgilleus.ca</a></div>
+          <div className="font-mono font-bold tracking-tight text-l">Contact email: <a href="mailto:igem@mcgilleus.ca">igem@mcgilleus.ca</a></div>
           
         </div>
 
         <div className="flex flex-row justify-center items-center">
-          <form className="w-[80%]  py-16 font-signika" action="https://formspree.io/f/xbjnwkde" method="post">
+          <form className="w-[80%]  py-16 font-signika" action="https://formspree.io/f/xzdqapea" method="post">
             <div className="flex flex-wrap -mx-3 mb-6">
               <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0">
                 <label
