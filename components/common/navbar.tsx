@@ -97,6 +97,9 @@ const Navbar = (props: NavbarProps) => {
                   <h1 className="uppercase lg:text-5xl text-xl lg:py-2 py-1 hover:underline hover:cursor-pointer"><a href="https://mcgilligem.substack.com/">NEWS</a></h1>
                 </div>
                 <div>
+                  <h1 className="uppercase lg:text-5xl text-xl lg:py-2 py-1 hover:underline hover:cursor-pointer"><a target="_blank" rel="relation_name" href="https://docs.google.com/forms/d/e/1FAIpQLSeCIweaqbocjLH_5zbAGq6x84lZ65bHc8zjcK1rp07JvbYfrA/viewform">2027 Team Recruitment</a></h1>
+                </div>
+                <div>
                   <h1 className="uppercase lg:text-5xl text-xl lg:py-2 py-1 hover:underline hover:cursor-pointer"><Link href="/contact">Contact Us</Link></h1>
                 </div>
 

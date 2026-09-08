@@ -16,6 +16,7 @@ const Footer = () => {
             
           </h2>
           <h2 className="font-bold hover:underline hover:cursor-pointer"><Link href="/contact">Contact Us</Link></h2>
+          <h2 className="font-bold hover:underline hover:cursor-pointer"><a target="_blank" rel="relation_name" href="https://docs.google.com/forms/d/e/1FAIpQLSeCIweaqbocjLH_5zbAGq6x84lZ65bHc8zjcK1rp07JvbYfrA/viewform">2027 Team Recruitment</a></h2>
         </div>
         <div className="px-8 py-2">
           <h2 className="py-2 font-bold hover:underline hover:cursor-pointer">
