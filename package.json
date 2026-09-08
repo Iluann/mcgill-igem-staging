@@ -8,7 +8,7 @@
     "start": "next start",
     "sstart": "serve out",
     "lint": "next lint",
-    "export": "next build && next export",
+    "export": "next build",
     "exp": "next export",
     "predeploy": "npm run build && npm run export",
     "deploy": "gh-pages -d out"
